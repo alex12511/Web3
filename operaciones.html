@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="operaciones.css">
+    <title>Operaciones</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Operaciones</h1>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <br>
+        <button onclick="operacion('suma')">Sumar</button>
+        <button onclick="operacion('resta')">Restar</button>
+        <button onclick="operacion('multiplicacion')">Multiplicar</button>
+        <button onclick="operacion('division')">Dividir</button>
+        <p id="resultado">Resultado: </p>
+    </div>
+    <script src="operaciones.js"></script>
+</body>
+</html>
